@@ -6,7 +6,7 @@ class ListController extends Controller
 {
     public function show()
     {
-       $characters = [
+       $movies = [
          'Step Brothers' 			=> '2008',
          'Black Hawk Down'          => '2002',
          'Dumb and Dumber'         	=> '1994',
@@ -14,6 +14,6 @@ class ListController extends Controller
          'The Godfather'         	=> '1972'
        ];
 
-       return view('welcome')->withCharacters($characters);
+       return view('welcome')->withCharacters($movies);
     }
 }
