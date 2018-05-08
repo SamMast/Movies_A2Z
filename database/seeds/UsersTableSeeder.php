@@ -20,7 +20,7 @@ class UsersTableSeeder extends Seeder
              array('title'=>'Black Hawk Down','year'=>'2002'),
              array('title'=>'Dumb and Dumber','year'=>'1994'),
              array('title'=>'The Last of the Mohicans','year'=>'1992'),
-             array('title'=>'The Godfather','year'=>'1972')
+             array('title'=>'The Godfather','year'=>'1972'),
           ));
        }
     }
