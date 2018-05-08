@@ -4,6 +4,15 @@
  	text-align:center;
  }
 
+ .hover:hover {
+ 	transform: scale(.95);
+ 	background-color: lightgray;
+ }
+
+ table {
+	margin: auto;
+ }
+
  
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

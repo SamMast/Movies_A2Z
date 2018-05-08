@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-success">
-                <h3 class="panel-heading">List of Favorite Movies</h3>
+                <h3 class="panel-heading">List of Favorite Movies:</h3>
 
                     @if(Auth::check())
                       <br />
@@ -17,7 +17,7 @@
                               <th class="yearsSince">Years Since Release</th>
                           </tr>
                           @foreach($characters as $key => $value)
-                            <tr>
+                            <tr class="hover">
                               <td>{{ $key }}</td>
                               <td class="releaseYear">{{ $value }}</td>
                               <td class="yearsSince">( {{ 2018 - $value }} years )</td>
