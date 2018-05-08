@@ -1,7 +1,7 @@
 <?PHP
 
 	//I want to pull this movie information straight from the database, but I am having trouble
-	//If I can pull the info here, I would make sure it is in object format, and display it on the page.
+	//If I can pull the info here, I would set the returned data to equal $movies, make sure it is in the correct format, and display it on the page.
 
    $movies = [
      'Step Brothers'            => '2008',

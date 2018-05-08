@@ -6,11 +6,11 @@ class ListController extends Controller
 {
     public function show()
     {
-        //change this to pul in movies from the DB and set it as an array in movies variable, then return it the same way
 
 
-
-
+    //I want to pull this movie information straight from the database, but I am having trouble
+    //If I can pull the info here, I would set the returned data to equal $movies, make sure it is in the correct format, and display it on the page.
+        
 
        $movies = [
          'Step Brothers' 			      => '2008',

@@ -18,5 +18,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//change this route to show json results from DB
 Route::get('/json', 'ListController@json')->name('json');
